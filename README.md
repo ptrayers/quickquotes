@@ -1,4 +1,5 @@
 # quickquotes
-QuickQuotes Wireframes
+QuickQuotes Clickable Prototypes
 
-testing out making changes on a new testing/feature branch.
+added all files was working prototyping in Brackets under /Dev/Coursea-Bootstrap/QuickQuotes
+

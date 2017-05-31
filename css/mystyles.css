@@ -1,0 +1,128 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.row-footer{
+    background-color: #AfAfAf;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding:30px 30px 30px 30px;
+    margin:0px auto;
+    background: #7986CB ;
+    color:floralwhite;
+    text-align: center;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+/* when we use the fixed navigation bar, we should give the body of the page an upper margin of 50px, so that the top 50px of the page does not get hidden under the navigation bar. */
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+/* We would like to have the navigation bar displayed in darker blue color, instead of black. */
+.navbar-inverse {
+     background: #303F9F;
+}
+
+/* we would like the navigation bar to indicate the current page by highlighting the item with a darker background in the navbar. */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+
+/* Xtra large buttons 
+        http://stackoverflow.com/questions/17638777/how-to-make-twitter-bootstrap-buttons-bigger
+*/
+.btn-xlg {
+    padding: 18px 28px;
+    font-size: 22px; /* change this to your desired size */
+    line-height: normal;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.dl-horizontal {
+    color:black;
+    font-weight:normal;
+}
+
+/* mandatory inuput field symbol */
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+}
+
+/* horizontal band 
+   text alignment - https://stackoverflow.com/questions/5703552/css-center-text-horizontal-and-vertical-inside-a-div-block
+*/
+.band {
+    width: auto !important;
+    height: 75px;
+    background-color: #708090;
+    color: #FFFFFF;
+    font-size: 200%;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 75px;
+}
+.small-band {
+    width: auto !important;
+    height: 30px;
+    background-color: #708090;
+    color: #FFFFFF;
+    font-size: 100%;
+    text-align:center;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+/* add vertical space to top row of each section */
+.top-buffer { margin-top:20px; }
+
+/* add space to sides of all rows */
+.side-buffer {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pad-field {
+  padding-right: 10px;
+  padding-left: 10px;
+}
