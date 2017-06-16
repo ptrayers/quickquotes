@@ -112,6 +112,11 @@ body{
     vertical-align: top;
     line-height: 30px;
 }
+.my-btn-chevron {
+    background-color: #708090;
+    font-size: 25px;
+    
+}
 
 /* add vertical space to top row of each section */
 .top-buffer { margin-top:20px; }
@@ -125,4 +130,22 @@ body{
 .pad-field {
   padding-right: 10px;
   padding-left: 10px;
+}
+
+/*carusel images */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*CSS*/
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+
+margin: auto;
 }
